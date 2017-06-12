@@ -124,9 +124,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="135.72851"
-     inkscape:cy="637.94439"
+     inkscape:zoom="1.5360952"
+     inkscape:cx="342.75219"
+     inkscape:cy="817.36761"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -157,7 +157,9 @@
        x="142.85715"
        y="178.07649"
        id="text36502"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="45"
+       inkscape:export-ydpi="45"><tspan
          sodipodi:role="line"
          id="tspan36504"
          x="142.85715"
@@ -170,7 +172,9 @@
        x="0.12110247"
        y="-0.37383923"
        rx="0.96190381"
-       ry="1.5159789" />
+       ry="1.5159789"
+       inkscape:export-xdpi="45"
+       inkscape:export-ydpi="45" />
     <g
        id="g23015"
        transform="translate(17.428593,10.000003)"

@@ -42,6 +42,15 @@
 </head>
 
 <body id="page-top" class="index">
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.9";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- Navigation -->
 <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -68,13 +77,13 @@
                     <a class="page-scroll" href="#deroulement">Déroulement</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#social">Social</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#résultat">Resultat</a>
+                    <a class="page-scroll" href="#retours">Nos retours</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#equipe">Equipe</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#social">Social</a>
                 </li>
             </ul>
         </div>
@@ -105,7 +114,7 @@
     </div>
 </header>
 
-<!-- Services Section -->
+<!-- presentation Section -->
 <section id="presentation">
     <div class="container">
         <div class="row">
@@ -156,7 +165,7 @@
         </div>
     </div>
 </section>
-<!-- About Section -->
+<!-- deroulement Section -->
 <section id="deroulement" class="bg-darkest-gray">
     <div class="container">
         <div class="row">
@@ -283,14 +292,14 @@
         </div>
     </div>
 </section>
-
-<!-- Portfolio Grid Section
-<section id="portfolio" class="bg-light-gray">
+<!-- Portfolio Grid Section -->
+<section id="retours">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Portfolio</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading">Nos retours</h2>
+                <h3 class="section-subheading text-muted">Nous essayerons à notre retour de partager notre
+                    expérience</h3>
             </div>
         </div>
         <div class="row">
@@ -301,14 +310,14 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    <img src="img/portfolio/preparation.jpg" class="img-responsive" alt="">
                 </a>
                 <div class="portfolio-caption">
-                    <h4>Round Icons</h4>
-                    <p class="text-muted">Graphic Design</p>
+                    <h4>La préparation</h4>
+                    <p class="text-muted">Ce que nous avons préparé.</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            <!--<div class="col-md-4 col-sm-6 portfolio-item">
                 <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -377,19 +386,18 @@
                     <h4>Dreams</h4>
                     <p class="text-muted">Website Design</p>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
-</section>-->
+</section>
 
-
-<!-- Team Section -->
-<section id="team" class="bg-light-gray">
+<!-- Equipe Section -->
+<section id="equipe" class="bg-light-gray">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Our Amazing Team</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading">Notre équipe</h2>
+                <h3 class="section-subheading text-muted">Soyez indulgents c'est notre premier hackathon ! </h3>
             </div>
         </div>
         <div class="row">
@@ -449,7 +457,34 @@
     </div>
 </section>
 
-<footer>
+<!-- Services social -->
+<section id="social">
+    <div class="container">
+        <div class="row text-center hidden-xs">
+            <div class="col-md-6">
+                <div class="fb-page"
+                     data-href="https://www.facebook.com/Mojopeinc-2308195429405654/"
+                     data-tabs="timeline,events,messages"
+                     data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                     data-show-facepile="true"
+                     style="width: 100%">
+                    <blockquote cite="https://www.facebook.com/Mojopeinc-2308195429405654/"
+                                class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/Mojopeinc-2308195429405654/">Mojopeinc</a></blockquote>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <a class="twitter-timeline" data-height="500" data-width="100%" data-theme="light"
+                   data-link-color="#2B7BB9"
+                   href="https://twitter.com/roux_jerome">Tweets by
+                    roux_jerome</a>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-darkest-gray">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -457,9 +492,10 @@
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a>
+                    <li><a href="#"><i class="fa fa-inverse fa-twitter"></i></a>
                     </li>
-                    <li><a href="https://www.facebook.com/Mojopeinc-2308195429405654/"><i class="fa fa-facebook"></i></a>
+                    <li><a href="https://www.facebook.com/Mojopeinc-2308195429405654/"><i
+                            class="fa fa-inverse fa-facebook"></i></a>
                     </li>
                 </ul>
             </div>
@@ -472,7 +508,7 @@
 <!-- Portfolio Modals -->
 <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-<!-- Portfolio Modal 1 -->
+<!-- Portfolio Préparation -->
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -487,9 +523,9 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
+                            <h2>La préparation</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                            <img class="img-responsive img-centered" src="img/portfolio/preparation.jpg" alt="">
                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
                                 adipisicing elit. Est
                                 blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt
@@ -508,9 +544,6 @@
                                 <li>Client: Round Icons</li>
                                 <li>Category: Graphic Design</li>
                             </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i
-                                    class="fa fa-times"></i> Close Project
-                            </button>
                         </div>
                     </div>
                 </div>

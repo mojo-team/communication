@@ -28,6 +28,9 @@
         offset: {
             top: 100
         }
-    })
+    });
+
+    //materialScrollTop
+    $('body').materialScrollTop();
 
 })(jQuery); // End of use strict

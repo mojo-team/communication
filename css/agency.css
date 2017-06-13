@@ -268,7 +268,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 65px;
+    padding-top: 25px;
     padding-bottom: 100px;
   }
   header .intro-text .intro-lead-in {
@@ -597,6 +597,12 @@ footer ul.quicklinks {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+}
+#facebook-par-defaut {
+  display: none;
+}
+#bouton-facebook:empty + a {
+  display: block;
 }
 ul.social-buttons {
   margin-bottom: 0;
